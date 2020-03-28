@@ -1,0 +1,14 @@
+{
+  "name": "blueboard-emails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/taruuuch/blueboard-emails.git",
+  "author": "Dmytro Artemchuk <taruuuch@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "gen": "mjml ./templates/*.mjml --config.minify -o ./dist/"
+  },
+  "dependencies": {
+    "mjml": "^4.6.2"
+  }
+}

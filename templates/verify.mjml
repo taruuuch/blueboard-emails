@@ -1,0 +1,22 @@
+<mjml>
+    <mj-body>
+        <mj-section background-color="#f0f0f0">
+            <mj-column>
+                <mj-text font-style="italic" font-size="20px" color="#626262">
+                    BlueBoard Email verification for {{email}}
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ccc">
+            <mj-column>
+                <mj-text color="#525252">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus.
+                </mj-text>
+                <mj-text color="#525252" font-size="24px" font-weight="bold">
+                    {{code}}
+                </mj-text>
+                <mj-button background-color="#F45E43" href="#">Activate now</mj-button>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
